@@ -1,10 +1,13 @@
 import { Icon } from '@iconify/react'
 import { FC } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import { ProductSwiper } from '@/components/productSwiper/ProductSwiper'
 import { Button } from '@/components/ui/button/Button'
 
 import Person from '@/assets/images/person.png'
+
+import { RouterPath } from '@/router/paths'
 
 export const Home: FC = () => {
   return (
@@ -28,10 +31,12 @@ export const Home: FC = () => {
               We love labels, choosing only the best pieces from their
               collections to give you all the things you want to wear.
             </p>
-            <Button className='flex items-center self-start mt-5 md:mt-10'>
-              <span className='mr-2'>Explore now</span>
-              <Icon icon='ph:arrow-right-light' height={20} />
-            </Button>
+            <NavLink to={`${RouterPath.Category}/trending`}>
+              <Button className='flex items-center self-start mt-5 md:mt-10'>
+                <span className='mr-2'>Explore now</span>
+                <Icon icon='ph:arrow-right-light' height={20} />
+              </Button>
+            </NavLink>
           </div>
 
           <div className='h-auto w-auto max-w-md lg:max-w-3xl lg:mt-0 mt-10'>
@@ -45,6 +50,7 @@ export const Home: FC = () => {
           </div>
         </div>
       </section>
+
       <section className='bg-bg-highlight w-screen px-14 py-10 mt:py-14'>
         <div className='flex flex-col lg:flex-row lg:items-center justify-between max-w-screen-2xl m-auto'>
           <div className='relative before:absolute before:h-full before:w-1 before:rounded-lg before:bg-primary before:left-0 pl-7'>
@@ -70,6 +76,7 @@ export const Home: FC = () => {
           </div>
         </div>
       </section>
+
       <section className='w-screen px-5 py-8 md:py-14'>
         <div className='flex flex-col max-w-screen-2xl m-auto'>
           <h1 className='uppercase text-3xl font-semibold'>New arrival</h1>

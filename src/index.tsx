@@ -2,6 +2,8 @@ import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux'
 import { RouterProvider } from 'react-router-dom'
 import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 
 import '@/assets/styles/index.css'

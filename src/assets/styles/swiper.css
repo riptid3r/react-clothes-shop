@@ -1,3 +1,11 @@
+:root {
+  --swiper-theme-color: #000;
+}
+
 .swiper-wrapper {
   padding-bottom: 25px;
+}
+
+.swiper-pagination {
+  transform: translateY(-20px);
 }

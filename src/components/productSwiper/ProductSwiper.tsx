@@ -1,7 +1,18 @@
+import cn from 'clsx'
+import { FC } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { FreeMode, Scrollbar } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-export const ProductSwiper = () => {
+import { RouterPath } from '@/router/paths'
+
+interface IProductSwiper {
+  className?: string
+}
+
+export const ProductSwiper: FC<IProductSwiper> = ({ className }) => {
+  const navigate = useNavigate()
+
   return (
     <Swiper
       slidesPerView={1.5}
@@ -11,7 +22,7 @@ export const ProductSwiper = () => {
       scrollbar={{
         hide: false
       }}
-      className='mt-8 md:mt-14 w-full pb-3'
+      className={cn('mt-8 md:mt-14 w-full pb-3', className)}
       breakpoints={{
         320: {
           slidesPerView: 1.5
@@ -39,7 +50,10 @@ export const ProductSwiper = () => {
       }}
     >
       {new Array(10).fill(null).map((e, i) => (
-        <SwiperSlide key={i}>
+        <SwiperSlide
+          key={i}
+          onClick={() => navigate(`${RouterPath.Product}/123`)}
+        >
           <div className='flex flex-col w-full rounded-md overflow-hidden cursor-pointer mr-8 shrink-0'>
             <div>
               <img
