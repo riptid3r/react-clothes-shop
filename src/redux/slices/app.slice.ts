@@ -5,7 +5,8 @@ import { IAppState } from '@/types/interfaces/app.interface'
 import { RootState } from '../store'
 
 const initialState: IAppState = {
-  showBurger: false
+  showBurger: false,
+  showCart: false
 }
 
 export const appSlice = createSlice({
@@ -16,11 +17,16 @@ export const appSlice = createSlice({
       state.showBurger = action.payload.value
 
       return state
+    },
+    setCartVisibility: (state, action: PayloadAction<{ value: boolean }>) => {
+      state.showCart = action.payload.value
+
+      return state
     }
   }
 })
 
-export const { setBurgerVisibility } = appSlice.actions
+export const { setBurgerVisibility, setCartVisibility } = appSlice.actions
 
 export const selectAppData = (state: RootState) => state.app
 

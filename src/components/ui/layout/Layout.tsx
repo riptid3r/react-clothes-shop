@@ -3,14 +3,19 @@ import { FC } from 'react'
 import { Outlet } from 'react-router-dom'
 
 import { Burger } from '@/components/burger/Burger'
+import { Cart } from '@/components/cart/Cart'
 import { Footer } from '@/components/footer/Footer'
 import { Header } from '@/components/header/Header'
 
 import { useAppDispatch, useAppSelector } from '@/redux/hooks'
-import { selectAppData, setBurgerVisibility } from '@/redux/slices/app.slice'
+import {
+  selectAppData,
+  setBurgerVisibility,
+  setCartVisibility
+} from '@/redux/slices/app.slice'
 
 export const Layout: FC = () => {
-  const { showBurger } = useAppSelector(selectAppData)
+  const { showBurger, showCart } = useAppSelector(selectAppData)
   const dispatch = useAppDispatch()
 
   const onClickMenu = () => {
@@ -21,10 +26,27 @@ export const Layout: FC = () => {
     )
   }
 
+  const onClickCart = () => {
+    dispatch(
+      setCartVisibility({
+        value: true
+      })
+    )
+  }
+
   return (
-    <div className={cn('flex flex-col h-screen', { fixed: showBurger })}>
+    <div
+      className={cn('flex flex-col w-screen h-screen', {
+        fixed: showBurger || showCart
+      })}
+    >
+      <Cart />
       <Burger showed={showBurger} />
-      <Header onClickMenu={onClickMenu} showBurger={showBurger} />
+      <Header
+        showBurger={showBurger}
+        onClickMenu={onClickMenu}
+        onClickCart={onClickCart}
+      />
       <main className='flex-grow pt-16 md:pt-20'>
         <Outlet />
       </main>

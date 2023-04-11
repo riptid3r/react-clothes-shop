@@ -10,16 +10,21 @@ import { ButtonIcon } from '../ui/buttonIcon/ButtonIcon'
 import { RouterPath } from '@/router/paths'
 
 interface IHeader {
-  onClickMenu: () => void
   showBurger: boolean
+  onClickCart: () => void
+  onClickMenu: () => void
 }
 
-export const Header: FC<IHeader> = ({ onClickMenu, showBurger }) => {
+export const Header: FC<IHeader> = ({
+  showBurger,
+  onClickMenu,
+  onClickCart
+}) => {
   return (
     <header className='w-screen px-5 md:px-9 h-16 lg:h-20 shadow-md flex justify-center absolute'>
       <div className='relative flex justify-end lg:justify-between items-center w-full max-w-screen-2xl'>
         <div
-          className={cn('absolute left-0 block z-50', {
+          className={cn('absolute left-0 block z-20', {
             'lg:hidden ': !showBurger
           })}
           onClick={onClickMenu}
@@ -49,7 +54,11 @@ export const Header: FC<IHeader> = ({ onClickMenu, showBurger }) => {
           />
         </NavLink>
 
-        <ButtonIcon icon='teenyicons:basket-outline' height={24} />
+        <ButtonIcon
+          icon='teenyicons:basket-outline'
+          height={24}
+          onClick={onClickCart}
+        />
       </div>
     </header>
   )

@@ -21,7 +21,7 @@ export const Product: FC = () => {
 
   return (
     <>
-      <div className='w-full max-w-screen-lg flex flex-col m-auto  px-5 sm:pt-10 sm:px-10'>
+      <div className='w-full max-w-screen-lg flex flex-col m-auto py-2 px-5 sm:pt-10 sm:px-10'>
         <div className='flex flex-col lg:flex-row items-center lg:items-start w-full justify-between'>
           <div className='w-96'>
             <Swiper
@@ -78,7 +78,7 @@ export const Product: FC = () => {
               {sizes.map((e) => (
                 <Button
                   variant={size === e ? 'primary' : 'secondary'}
-                  className='px-2 py-2 w-10 h-10'
+                  className='p-2 w-10 h-10'
                   key={e}
                   onClick={() => setSize(e)}
                 >
@@ -111,7 +111,9 @@ export const Product: FC = () => {
 
               <Button className='flex flex-grow justify-center items-center'>
                 <div className='flex items-center'>
-                  <span className='uppercase text-md mr-2'>Add to cart</span>
+                  <span className='uppercase text-md mr-2 text-sm sm:text-md px-7 py-3'>
+                    Add to cart
+                  </span>
                   <Icon
                     icon='material-symbols:arrow-right-alt-rounded'
                     height={20}

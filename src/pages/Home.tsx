@@ -32,7 +32,7 @@ export const Home: FC = () => {
               collections to give you all the things you want to wear.
             </p>
             <NavLink to={`${RouterPath.Category}/trending`}>
-              <Button className='flex items-center self-start mt-5 md:mt-10'>
+              <Button className='flex items-center self-start mt-5 md:mt-10 px-7 py-3'>
                 <span className='mr-2'>Explore now</span>
                 <Icon icon='ph:arrow-right-light' height={20} />
               </Button>

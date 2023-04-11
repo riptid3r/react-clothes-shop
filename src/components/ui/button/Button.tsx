@@ -1,5 +1,5 @@
-import { ButtonHTMLAttributes, FC, PropsWithChildren } from 'react'
 import cn from 'clsx'
+import { ButtonHTMLAttributes, FC, PropsWithChildren } from 'react'
 
 interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary'
@@ -15,10 +15,10 @@ export const Button: FC<PropsWithChildren<IButton>> = ({
     <button
       {...rest}
       className={cn(
-        'rounded-3xl font-semibold px-7 py-3',
+        'rounded-3xl font-semibold transition-all',
         {
           'text-white bg-primary': variant === 'primary',
-          'text-secondary bg-transparent border border-black-500 hover:bg-primary hover:border-transparent hover:text-white':
+          'text-white bg-gray opacity-70 hover:bg-primary hover:border-transparent hover:text-white':
             variant === 'secondary'
         },
         className
