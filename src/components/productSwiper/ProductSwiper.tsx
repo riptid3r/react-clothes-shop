@@ -4,14 +4,25 @@ import { useNavigate } from 'react-router-dom'
 import { FreeMode, Scrollbar } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
+import { IProductItem } from '@/types/interfaces/products.interface'
+
+import { LoadingCard } from '../loadingCard/LoadingCard'
+
 import { RouterPath } from '@/router/paths'
 
 interface IProductSwiper {
+  items: IProductItem[]
   className?: string
 }
 
-export const ProductSwiper: FC<IProductSwiper> = ({ className }) => {
+export const ProductSwiper: FC<IProductSwiper> = ({ className, items }) => {
   const navigate = useNavigate()
+
+  const placeholderCards = [...new Array(8)].map((_, index) => (
+    <SwiperSlide key={index} virtualIndex={index}>
+      <LoadingCard type='secondary' />
+    </SwiperSlide>
+  ))
 
   return (
     <Swiper
@@ -42,36 +53,38 @@ export const ProductSwiper: FC<IProductSwiper> = ({ className }) => {
         1024: {
           slidesPerView: 4.3,
           spaceBetween: 40
-        },
-        1536: {
-          slidesPerView: 5.3,
-          spaceBetween: 40
         }
       }}
     >
-      {new Array(10).fill(null).map((e, i) => (
-        <SwiperSlide
-          key={i}
-          onClick={() => navigate(`${RouterPath.Product}/123`)}
-        >
-          <div className='flex flex-col w-full rounded-md overflow-hidden cursor-pointer mr-8 shrink-0'>
-            <div>
-              <img
-                className='w-full h-full object-cover object-center'
-                src='https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw1480e560/SH9623_CB8_24.jpg?imwidth=915&impolicy=product'
-                alt=''
-              />
-            </div>
-            <div className='flex items-center justify-between w-full bg-bg-highlight px-3 py-3'>
-              <div className='flex flex-col'>
-                <span className='text-xl font-medium'>Lacoste</span>
-                <span>Organic Cotton Hooded Sweatshirt</span>
-                <span className='text-lg font-medium text-gray'>$18.99</span>
+      {!items.length
+        ? placeholderCards
+        : items.map((item) => (
+            <SwiperSlide
+              key={item.id}
+              onClick={() => navigate(`${RouterPath.Product}/${item.id}`)}
+            >
+              <div className='flex flex-col w-full rounded-md overflow-hidden cursor-pointer mr-8 shrink-0 h-96'>
+                <div className='h-72 shrink-0'>
+                  <img
+                    className='w-full h-full object-cover object-top'
+                    src={item.images[0].link}
+                    alt=''
+                  />
+                </div>
+                <div className='flex items-center justify-between w-full bg-bg-highlight px-3 py-3 grow'>
+                  <div className='flex flex-col'>
+                    <span className='text-lg md:text-xl font-medium'>
+                      {item.brand}
+                    </span>
+                    <span className='text-sm md:text-md'>{item.name}</span>
+                    <span className='text-lg font-medium text-gray'>
+                      ${item.price}
+                    </span>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </SwiperSlide>
-      ))}
+            </SwiperSlide>
+          ))}
     </Swiper>
   )
 }

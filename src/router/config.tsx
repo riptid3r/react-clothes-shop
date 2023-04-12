@@ -1,8 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom'
 
 import { Category } from '@/pages/Category'
+import { Collections } from '@/pages/Collections'
 import { Home } from '@/pages/Home'
-import { Product } from '@/pages/Product'
+import { SingleCollection } from '@/pages/SingleCollection'
+import { SingleProduct } from '@/pages/SingleProduct'
 
 import { Layout } from '@/components/ui/layout/Layout'
 
@@ -22,7 +24,15 @@ export const router = createBrowserRouter([
       },
       {
         path: `${RouterPath.Product}/:id`,
-        element: <Product />
+        element: <SingleProduct />
+      },
+      {
+        path: RouterPath.Collections,
+        element: <Collections />
+      },
+      {
+        path: `${RouterPath.Collections}/:id`,
+        element: <SingleCollection />
       }
     ]
   }

@@ -1,15 +1,26 @@
 import { Icon } from '@iconify/react'
-import { FC, useState } from 'react'
+import { FC, useEffect, useState } from 'react'
 import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import { ProductSwiper } from '@/components/productSwiper/ProductSwiper'
 import { Button } from '@/components/ui/button/Button'
 
-const sizes = ['s', 'm', 'l', 'xl']
+import { IProductItem } from '@/types/interfaces/products.interface'
 
-export const Product: FC = () => {
-  const [size, setSize] = useState(sizes[0])
+import { ProductsService } from '@/services/products/products.service'
+
+export const Product: FC<IProductItem> = ({
+  name,
+  brand,
+  images,
+  description,
+  price,
+  combination,
+  sizes
+}) => {
+  const [recommendations, setRecommendations] = useState<IProductItem[]>([])
+  const [size, setSize] = useState(sizes[0].id)
   const [counter, setCounter] = useState(1)
 
   const onCount = (type: 'increase' | 'decrease') => {
@@ -18,6 +29,16 @@ export const Product: FC = () => {
 
     setCounter((v) => (type === 'increase' ? v + 1 : v - 1))
   }
+
+  useEffect(() => {
+    ProductsService.getRecommendations()
+      .then(({ data }) => {
+        setRecommendations(data)
+      })
+      .catch((err) => {
+        console.error(err)
+      })
+  }, [])
 
   return (
     <>
@@ -29,60 +50,37 @@ export const Product: FC = () => {
               pagination={true}
               modules={[Navigation, Pagination]}
             >
-              <SwiperSlide>
-                <img
-                  className='w-full h-full object-cover object-center'
-                  src='https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw1480e560/SH9623_CB8_24.jpg?imwidth=915&impolicy=product'
-                  alt=''
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className='w-full h-full object-cover object-center'
-                  src='https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw1480e560/SH9623_CB8_24.jpg?imwidth=915&impolicy=product'
-                  alt=''
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className='w-full h-full object-cover object-center'
-                  src='https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw1480e560/SH9623_CB8_24.jpg?imwidth=915&impolicy=product'
-                  alt=''
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className='w-full h-full object-cover object-center'
-                  src='https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw1480e560/SH9623_CB8_24.jpg?imwidth=915&impolicy=product'
-                  alt=''
-                />
-              </SwiperSlide>
+              {images.map((item) => (
+                <SwiperSlide key={item.id}>
+                  <img
+                    className='w-full h-full object-cover object-center'
+                    src={item.link}
+                    alt=''
+                  />
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
 
-          <div className='flex flex-col'>
+          <div className='flex flex-col max-w-lg'>
             <span className='text-2xl font-semibold mb-2'>
-              Lacoste Organic Cotton Hooded Sweatshirt
+              {brand} {name}
             </span>
             <span className='self-start px-5 py-2 bg-primary rounded-3xl text-white text-2xl font-semibold'>
-              $55.33
+              ${price}
             </span>
-            <p className='text-xl mt-5'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <p className='text-md mt-5 text-gray'>
-              Combination: 60% cotton, 40% polyester. Density 320 gm/m².
-            </p>
+            <p className='text-xl mt-5'>{description}</p>
+            <p className='text-md mt-5 text-gray'>Combination: {combination}</p>
             <span className='text-md font-semibold mt-5'>Choose a size:</span>
             <div className='self-start grid grid-cols-4 gap-1 mt-2'>
-              {sizes.map((e) => (
+              {sizes.map((item) => (
                 <Button
-                  variant={size === e ? 'primary' : 'secondary'}
+                  variant={size === item.id ? 'primary' : 'secondary'}
                   className='p-2 w-10 h-10'
-                  key={e}
-                  onClick={() => setSize(e)}
+                  key={item.id}
+                  onClick={() => setSize(item.id)}
                 >
-                  <span className='uppercase'>{e}</span>
+                  <span className='uppercase'>{item.name}</span>
                 </Button>
               ))}
             </div>
@@ -109,9 +107,9 @@ export const Product: FC = () => {
                 </div>
               </div>
 
-              <Button className='flex flex-grow justify-center items-center'>
+              <Button className='flex flex-grow justify-center items-center px-7 py-3'>
                 <div className='flex items-center'>
-                  <span className='uppercase text-md mr-2 text-sm sm:text-md px-7 py-3'>
+                  <span className='uppercase text-md mr-2 text-sm sm:text-md'>
                     Add to cart
                   </span>
                   <Icon
@@ -127,7 +125,7 @@ export const Product: FC = () => {
 
       <div className='flex flex-col px-5 md:px-10 max-w-6xl w-full m-auto pb-10 mt-10'>
         <span className='text-lg font-semibold'>Recommended for purchase</span>
-        <ProductSwiper className='mt-2 md:mt-7' />
+        <ProductSwiper items={recommendations} className='mt-2 md:mt-7' />
       </div>
     </>
   )

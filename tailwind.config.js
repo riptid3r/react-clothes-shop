@@ -3,7 +3,7 @@
 const twColors = require('tailwindcss/colors')
 
 const colors = {
-  transparent: twColors.transparent,
+  ...twColors,
   black: '#171924',
   'black-500': '#17192450',
   white: twColors.white,

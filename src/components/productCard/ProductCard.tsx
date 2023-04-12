@@ -1,27 +1,36 @@
 import { FC } from 'react'
-import { NavLink } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { Link } from 'react-router-dom'
+
+import { IProductItem } from '@/types/interfaces/products.interface'
 
 import { RouterPath } from '@/router/paths'
 
-export const ProductCard: FC = () => {
+export const ProductCard: FC<IProductItem> = ({
+  id,
+  images,
+  name,
+  price,
+  brand
+}) => {
   return (
-    <NavLink to={`${RouterPath.Product}/123`}>
-      <div className='flex flex-col w-full rounded-md overflow-hidden cursor-pointer mr-8 shrink-0'>
-        <div>
-          <img
-            className='w-full h-full object-cover object-center'
-            src='https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw1480e560/SH9623_CB8_24.jpg?imwidth=915&impolicy=product'
-            alt=''
-          />
-        </div>
-        <div className='flex items-center justify-between w-full bg-bg-highlight px-3 py-3'>
+    <Link to={`${RouterPath.Product}/${id}`}>
+      <div className='flex flex-col w-full rounded-md overflow-hidden cursor-pointer mr-8 shrink-0 h-full'>
+        <LazyLoadImage
+          className='w-full h-52 sm:h-72 md:h-96 object-cover object-center'
+          src={images[0].link}
+          alt=''
+          draggable='false'
+          effect='blur'
+        />
+        <div className='flex items-center justify-between w-full bg-bg-highlight p-3 grow'>
           <div className='flex flex-col'>
-            <span className='text-xl font-medium'>Lacoste</span>
-            <span>Organic Cotton Hooded Sweatshirt</span>
-            <span className='text-lg font-medium text-gray'>$18.99</span>
+            <span className='text-xl font-medium'>{brand}</span>
+            <span>{name}</span>
+            <span className='text-lg font-medium text-gray'>${price}</span>
           </div>
         </div>
       </div>
-    </NavLink>
+    </Link>
   )
 }

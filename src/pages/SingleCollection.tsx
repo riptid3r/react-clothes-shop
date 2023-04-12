@@ -10,7 +10,7 @@ import { ProductsService } from '@/services/products/products.service'
 
 import { RouterPath } from '@/router/paths'
 
-export const Category: FC = () => {
+export const SingleCollection: FC = () => {
   const dispatch = useAppDispatch()
   const navigate = useNavigate()
 
@@ -26,7 +26,7 @@ export const Category: FC = () => {
       return
     }
 
-    ProductsService.getList(id)
+    ProductsService.getListByCollection(id)
       .then(({ data }) => {
         dispatch(setProductList({ list: data }))
       })

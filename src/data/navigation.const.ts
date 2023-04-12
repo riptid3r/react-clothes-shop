@@ -15,6 +15,6 @@ export const NavigationMenu = [
   },
   {
     name: 'Collections',
-    link: `${RouterPath.Category}/collections`
+    link: RouterPath.Collections
   }
 ] as const

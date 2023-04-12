@@ -25,6 +25,7 @@ export const Cart: FC = () => {
           'fixed left-0 top-0 bg-black-500 w-screen h-screen z-40 overflow-y-auto',
           { invisible: !showCart }
         )}
+        onClick={onClose}
       />
       <Transition
         show={showCart}

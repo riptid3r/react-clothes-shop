@@ -1,0 +1,1450 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "brand": "Lacoste",
+      "name": "Print Zip Sweatshirt",
+      "description": "This elegant, striking sweatshirt combines all of the best features of Lacoste streetwear style.",
+      "combination": "Main fabric: Cotton (100%) / Hood lining: Cotton (100%) / Rib edge: Cotton (98%), Elastane (2%)",
+      "price": 82.11,
+      "category": "men",
+      "new_arrival": true,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw13fbf27b/SH5088_166_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw31a3854d/SH5088_166_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwe6dd4ff7/SH5088_166_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw4b934b02/SH5088_166_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw6feac4c3/SH5088_166_31.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "6",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwc5b38895/SH5088_166_32.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "brand": "Lacoste",
+      "name": "Crew Neck Pima Cotton Jersey T-shirt",
+      "description": "Forget basic sportswear. Choose this sophisticated Lacoste sweatshirt instead.",
+      "combination": "Main fabric: Cotton (100%) / Rib edge: Cotton (95%), Elastane (5%)",
+      "price": 36.84,
+      "category": "men",
+      "new_arrival": false,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwcc9922be/TH6709_001_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw69818b61/TH6709_001_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw3f60aa54/TH6709_001_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwcb1def64/TH6709_001_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwc50715f2/TH6709_001_31.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "brand": "Lacoste",
+      "name": "Regular Fit Logo Stripe T-shirt",
+      "description": "Stand out on a daily basis in this Lacoste T-shirt. What makes it so great? Contrasting stripes add a stylish twist.",
+      "combination": "Cotton (100%)",
+      "price": 59.99,
+      "category": "men",
+      "new_arrival": true,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw2694ac7d/TH5071_001_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwd2d0ab67/TH5071_001_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwb3141fee/TH5071_001_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwe0f5f0b6/TH5071_001_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw0d34366e/TH5071_001_31.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "brand": "Lacoste",
+      "name": "Zip Neck  Fit Organic Cotton Sweatshirt",
+      "description": "Forget basic sportswear. Choose this sophisticated Lacoste sweatshirt instead.",
+      "combination": "Main fabric: Cotton (100%) / Rib edge: Cotton (95%), Elastane (5%)",
+      "price": 39.43,
+      "category": "men",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw93b63363/SH5595_132_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw54298480/SH5595_132_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw7fc5617d/SH5595_132_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw1f53e3ca/SH5595_132_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwa67cf9ea/SH5595_132_31.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "6",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwf4621beb/SH5595_132_32.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "brand": "Lacoste",
+      "name": "SPORT  Fit Zip Sweatshirt",
+      "description": "A zipped sweatshirt with multiple functionalities. Practical, breathable, comfortable. A Lacoste essential.",
+      "combination": "Main fabric: Polyester (93%), Elastane (7%) / Hood: Polyester (100%)",
+      "price": 66.32,
+      "category": "women",
+      "new_arrival": true,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwbfb385c3/SF9328_031_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw048acfd6/SF9328_031_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwe398b4d8/SF9328_031_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw75b59547/SF9328_031_23.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw83a55baa/SF9328_031_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "6",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw5647fb1a/SF9328_031_32.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "brand": "Lacoste",
+      "name": "Print Back Sweatshirt",
+      "description": "Hip, practical, comfortable and sporty: what's not to love about this sweatshirt?",
+      "combination": "Cotton (77%), Polyester (18%), Elastane (5%)",
+      "price": 46.68,
+      "category": "women",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw1ba49660/SF5614_031_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw5a9b9641/SF5614_031_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw8f31874a/SF5614_031_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw628ce956/SF5614_031_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw609fca2a/SF5614_031_31.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "6",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw41a4fa32/SF5614_031_36.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "brand": "Lacoste",
+      "name": "Oversize High Neck Zipped Fleece Sweatshirt",
+      "description": "Premium fabric with a fashion-forward texture. Go big or go home with this super-comfy Lacoste sweatshirt.",
+      "combination": "Main fabric: Cotton (84%), Polyester (16%) / Rib edge: Cotton (90%), Elastane (10%)",
+      "price": 87.55,
+      "category": "women",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw8fa0322b/SF6385_70V_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwf3b7d3d1/SF6385_70V_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw0357a0fa/SF6385_70V_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwd0f4f5ed/SF6385_70V_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw6dc94bae/SF6385_70V_31.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "6",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw72d676f2/SF6385_70V_32.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "brand": "Lacoste",
+      "name": " Fit Hooded Organic Cotton Sweatshirt",
+      "description": "Stay warm in this roomy and responsible Lacoste hoodie. An essential from the crocodile wardrobe to be worn in any weather.",
+      "combination": "Main fabric: Cotton (100%) / Rib edge: Cotton (97%), Elastane (3%)",
+      "price": 74.24,
+      "category": "women",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwa79d4a81/SH6404_KX5_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw2407f720/SH6404_KX5_31.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "brand": "The North Face",
+      "name": "Short-Sleeve Box NSE Tee",
+      "description": "Whether you're before, during, or after an adventure, the Men's Short-Sleeve Box NSE Tee delivers the casual looks and go-anywhere durability you need.",
+      "combination": "100% cotton",
+      "price": 30.0,
+      "category": "men",
+      "new_arrival": false,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "L"
+        },
+        {
+          "id": "2",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A812H_TV5_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A812H_TV5_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "brand": "The North Face",
+      "name": "Box NSE Shorts",
+      "description": "Warm-weather comfort with a go-anywhere design. The Men's Box NSE Shorts are a reminder of all the adventures still to come.",
+      "combination": "73% cotton, 27% polyester",
+      "price": 50.0,
+      "category": "men",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "M"
+        },
+        {
+          "id": "2",
+          "name": "L"
+        },
+        {
+          "id": "3",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Y_LV2_hero?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Y_LV2_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Y_LV2_model34?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "brand": "The North Face",
+      "name": "Places We Love Crew",
+      "description": "Featuring bold graphics showcasing some of our favorite wild spaces, the Men's Places We Love Crew is soft, warm, and perfect for year-round use. ",
+      "combination": "49% cotton, 49% polyester, 2% elastane",
+      "price": 60.0,
+      "category": "men",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "M"
+        },
+        {
+          "id": "2",
+          "name": "L"
+        },
+        {
+          "id": "3",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Q_JK3_hero?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Q_JK3_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Q_JK3_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "brand": "The North Face",
+      "name": "Box NSE Joggers",
+      "description": "The Men's Box NSE Joggers are made to get you from home to the campsite in comfort. With our classic Half Dome logo on the left thigh, these joggers are a reminder of all the adventures yet to come. ",
+      "combination": "73% cotton, 27% polyester",
+      "price": 60.0,
+      "category": "men",
+      "new_arrival": false,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "M"
+        },
+        {
+          "id": "2",
+          "name": "L"
+        },
+        {
+          "id": "3",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UOA_PK1_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UOA_PK1_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UOA_PK1_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "brand": "The North Face",
+      "name": "Places We Love Crew",
+      "description": "Featuring bold graphics showcasing some of our favorite wild spaces, the Women's Places We Love Crew is soft, warm, and perfect for year-round use.",
+      "combination": "73% cotton, 27% polyester",
+      "price": 60.0,
+      "category": "women",
+      "new_arrival": true,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A81U9_LV1_hero?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A81U9_LV1_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A81U9_LV1_model34?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "brand": "The North Face",
+      "name": "Simple Logo Sweatpants",
+      "description": "Sometimes simple is best. The Women's Simple Logo Sweatpants feature a relaxed fit and an adjustable waistband, perfect for laid-back, warm-weather days.",
+      "combination": "50% cotton, 50% polyester",
+      "price": 70.0,
+      "category": "women",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UY8_DYX_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UY8_DYX_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UY8_DYX_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "brand": "The North Face",
+      "name": "Base Camp Mules",
+      "description": "The breathable and super-comfortable unisex Base Camp Mule is perfect for warm spring and summer days.",
+      "combination": "100% recycled P.E.T. mesh across the top of the foot and a 50% recycled polyester-spandex spacer-mesh heel",
+      "price": 89.0,
+      "category": "women",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "5"
+        },
+        {
+          "id": "2",
+          "name": "6"
+        },
+        {
+          "id": "3",
+          "name": "7"
+        },
+        {
+          "id": "4",
+          "name": "8"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7W4D_BQW_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7W4D_BQW_detailinstep?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7W4D_BQW_detailsole?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "4",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7W4D_BQW_detail1?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "5",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7W4D_BQW_detail2?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "brand": "The North Face",
+      "name": "Garment Dye Mock Neck Pullover",
+      "description": "The vintage look and soft texture of the Women's Garment Dye Mock-Neck Pullover make it a favorite for colder weather at any time of year.",
+      "combination": "87% cotton, 13% polyester",
+      "price": 70.0,
+      "category": "women",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UPK_JK3_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UPK_JK3_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "brand": "Nike",
+      "name": "Graphic Baseball Jersey",
+      "description": "The world changed when 42 stepped onto the diamond for the Brooklyn Dodgers.",
+      "combination": "98% cotton/2% spandex",
+      "price": 110.0,
+      "category": "men",
+      "new_arrival": true,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3ff4fd88-ac83-4bed-8365-228d6e3ddbea/mens-graphic-baseball-jersey-4d3HLz.png"
+        },
+        {
+          "id": "2",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a3a31384-d703-4113-8a5b-44c4a45a1345/mens-graphic-baseball-jersey-4d3HLz.png"
+        },
+        {
+          "id": "3",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5a7e74ea-38a3-4248-89bd-4c4d9317934b/mens-graphic-baseball-jersey-4d3HLz.png"
+        },
+        {
+          "id": "4",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f8db1685-74da-4b2e-9fa7-2f91034c39b5/mens-graphic-baseball-jersey-4d3HLz.png"
+        },
+        {
+          "id": "5",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3c7d4490-99cb-4987-bc1b-386c4bc28959/mens-graphic-baseball-jersey-4d3HLz.png"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "brand": "Nike",
+      "name": "Men's T-Shirt",
+      "description": "Why not add some stripes to your daily t-shirt lineup? This one comes with premium, heavyweight fabric that wicks away sweat to help you stay cool and comfortable out there.",
+      "combination": "63% cotton/37% polyester",
+      "price": 65.0,
+      "category": "men",
+      "new_arrival": true,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ad1c985a-bf5f-4815-8203-9d66a17ed8a7/acg-mens-t-shirt-xw0d5p.png"
+        },
+        {
+          "id": "2",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e8dbdae4-fada-42d7-92d5-8c58fa47887e/acg-mens-t-shirt-xw0d5p.png"
+        },
+        {
+          "id": "3",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/23956af8-0ab8-4c7c-9898-38cb25478df7/acg-mens-t-shirt-xw0d5p.png"
+        },
+        {
+          "id": "4",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ea8b6e2-5b43-4660-9ff1-23bd145d7848/acg-mens-t-shirt-xw0d5p.png"
+        },
+        {
+          "id": "5",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a8141702-7b55-4e0a-a486-704376043591/acg-mens-t-shirt-xw0d5p.png"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "brand": "Nike",
+      "name": "Oversized short-sleeve T-Shirt",
+      "description": "Roomy and relaxed, this oversized tee is perfect when you want to rock a bold look but still be comfy.",
+      "combination": "100% cotton",
+      "price": 30.0,
+      "category": "women",
+      "new_arrival": false,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ad97fa44-8bbc-4091-a0b5-1d2f6a28b4be/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        },
+        {
+          "id": "2",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6998cb70-f8c5-493e-9fa4-38cae460154c/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        },
+        {
+          "id": "3",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8971c302-9373-4930-86d3-f005a4468071/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        },
+        {
+          "id": "4",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/eb527542-8f93-4a64-9173-4bfc35dfd201/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        },
+        {
+          "id": "5",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/208cdbfe-6d9f-47fb-8bbd-322047738849/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "brand": "Nike",
+      "name": "Oversized T-Shirt",
+      "description": "Roomy and relaxed, the Nike Sportswear Essential T-Shirt updates a classic silhouette with soft cotton and a carefree, oversized fit.",
+      "combination": "100% cotton",
+      "price": 35.0,
+      "category": "women",
+      "new_arrival": true,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/32cfdfb8-65d2-4fcd-ad58-05e514c8cc8c/sportswear-essential-womens-oversized-t-shirt-Pb83Qx.png"
+        },
+        {
+          "id": "2",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8bd051aa-8a99-47c2-bc55-fbd8a25deb2d/sportswear-essential-womens-oversized-t-shirt-Pb83Qx.png"
+        },
+        {
+          "id": "3",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7c18f579-52bb-4eba-874b-b004d13e2206/sportswear-essential-womens-oversized-t-shirt-Pb83Qx.png"
+        },
+        {
+          "id": "4",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/050ee1f7-1bcc-4402-b340-730182fb52d9/sportswear-essential-womens-oversized-t-shirt-Pb83Qx.png"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "3",
+      "brand": "Lacoste",
+      "name": "Regular Fit Logo Stripe T-shirt",
+      "description": "Stand out on a daily basis in this Lacoste T-shirt. What makes it so great? Contrasting stripes add a stylish twist.",
+      "combination": "Cotton (100%)",
+      "price": 59.99,
+      "category": "men",
+      "new_arrival": true,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw2694ac7d/TH5071_001_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwd2d0ab67/TH5071_001_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwb3141fee/TH5071_001_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwe0f5f0b6/TH5071_001_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw0d34366e/TH5071_001_31.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "brand": "Nike",
+      "name": "Men's T-Shirt",
+      "description": "Why not add some stripes to your daily t-shirt lineup? This one comes with premium, heavyweight fabric that wicks away sweat to help you stay cool and comfortable out there.",
+      "combination": "63% cotton/37% polyester",
+      "price": 65,
+      "category": "men",
+      "new_arrival": true,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ad1c985a-bf5f-4815-8203-9d66a17ed8a7/acg-mens-t-shirt-xw0d5p.png"
+        },
+        {
+          "id": "2",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e8dbdae4-fada-42d7-92d5-8c58fa47887e/acg-mens-t-shirt-xw0d5p.png"
+        },
+        {
+          "id": "3",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/23956af8-0ab8-4c7c-9898-38cb25478df7/acg-mens-t-shirt-xw0d5p.png"
+        },
+        {
+          "id": "4",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ea8b6e2-5b43-4660-9ff1-23bd145d7848/acg-mens-t-shirt-xw0d5p.png"
+        },
+        {
+          "id": "5",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a8141702-7b55-4e0a-a486-704376043591/acg-mens-t-shirt-xw0d5p.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "brand": "Lacoste",
+      "name": "Crew Neck Jersey T-shirt",
+      "description": "Forget basic sportswear. Choose this sophisticated Lacoste sweatshirt instead.",
+      "combination": "Main fabric: Cotton (100%) / Rib edge: Cotton (95%), Elastane (5%)",
+      "price": 36.84,
+      "category": "men",
+      "new_arrival": false,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwcc9922be/TH6709_001_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw69818b61/TH6709_001_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw3f60aa54/TH6709_001_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwcb1def64/TH6709_001_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwc50715f2/TH6709_001_31.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "brand": "The North Face",
+      "name": "Places We Love Crew",
+      "description": "Featuring bold graphics showcasing some of our favorite wild spaces, the Women's Places We Love Crew is soft, warm, and perfect for year-round use.",
+      "combination": "73% cotton, 27% polyester",
+      "price": 60,
+      "category": "women",
+      "new_arrival": true,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A81U9_LV1_hero?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A81U9_LV1_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A81U9_LV1_model34?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "brand": "Nike",
+      "name": "Oversized T-Shirt",
+      "description": "Roomy and relaxed, the Nike Sportswear Essential T-Shirt updates a classic silhouette with soft cotton and a carefree, oversized fit.",
+      "combination": "100% cotton",
+      "price": 35,
+      "category": "women",
+      "new_arrival": true,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/32cfdfb8-65d2-4fcd-ad58-05e514c8cc8c/sportswear-essential-womens-oversized-t-shirt-Pb83Qx.png"
+        },
+        {
+          "id": "2",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8bd051aa-8a99-47c2-bc55-fbd8a25deb2d/sportswear-essential-womens-oversized-t-shirt-Pb83Qx.png"
+        },
+        {
+          "id": "3",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7c18f579-52bb-4eba-874b-b004d13e2206/sportswear-essential-womens-oversized-t-shirt-Pb83Qx.png"
+        },
+        {
+          "id": "4",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/050ee1f7-1bcc-4402-b340-730182fb52d9/sportswear-essential-womens-oversized-t-shirt-Pb83Qx.png"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "brand": "Lacoste",
+      "name": "Print Zip Sweatshirt",
+      "description": "This elegant, striking sweatshirt combines all of the best features of Lacoste streetwear style.",
+      "combination": "Main fabric: Cotton (100%) / Hood lining: Cotton (100%) / Rib edge: Cotton (98%), Elastane (2%)",
+      "price": 82.11,
+      "category": "men",
+      "new_arrival": true,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw13fbf27b/SH5088_166_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw31a3854d/SH5088_166_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwe6dd4ff7/SH5088_166_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw4b934b02/SH5088_166_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw6feac4c3/SH5088_166_31.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "6",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwc5b38895/SH5088_166_32.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "brand": "The North Face",
+      "name": "Box NSE Shorts",
+      "description": "Warm-weather comfort with a go-anywhere design. The Men's Box NSE Shorts are a reminder of all the adventures still to come.",
+      "combination": "73% cotton, 27% polyester",
+      "price": 50,
+      "category": "men",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "M"
+        },
+        {
+          "id": "2",
+          "name": "L"
+        },
+        {
+          "id": "3",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Y_LV2_hero?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Y_LV2_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A811Y_LV2_model34?wid=780&hei=906&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "brand": "The North Face",
+      "name": "Simple Logo Sweatpants",
+      "description": "Sometimes simple is best. The Women's Simple Logo Sweatpants feature a relaxed fit and an adjustable waistband, perfect for laid-back, warm-weather days.",
+      "combination": "50% cotton, 50% polyester",
+      "price": 70,
+      "category": "women",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UY8_DYX_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "2",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UY8_DYX_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        },
+        {
+          "id": "3",
+          "link": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UY8_DYX_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "brand": "Lacoste",
+      "name": "Oversize Fleece Sweatshirt",
+      "description": "Premium fabric with a fashion-forward texture. Go big or go home with this super-comfy Lacoste sweatshirt.",
+      "combination": "Main fabric: Cotton (84%), Polyester (16%) / Rib edge: Cotton (90%), Elastane (10%)",
+      "price": 87.55,
+      "category": "women",
+      "new_arrival": false,
+      "trending": false,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw8fa0322b/SF6385_70V_20.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "2",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwf3b7d3d1/SF6385_70V_21.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "3",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw0357a0fa/SF6385_70V_22.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "4",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dwd0f4f5ed/SF6385_70V_24.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "5",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw6dc94bae/SF6385_70V_31.jpg?imwidth=915&impolicy=product"
+        },
+        {
+          "id": "6",
+          "link": "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw72d676f2/SF6385_70V_32.jpg?imwidth=915&impolicy=product"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "brand": "Nike",
+      "name": "Oversized short-sleeve T-Shirt",
+      "description": "Roomy and relaxed, this oversized tee is perfect when you want to rock a bold look but still be comfy.",
+      "combination": "100% cotton",
+      "price": 30,
+      "category": "women",
+      "new_arrival": false,
+      "trending": true,
+      "sizes": [
+        {
+          "id": "1",
+          "name": "S"
+        },
+        {
+          "id": "2",
+          "name": "M"
+        },
+        {
+          "id": "3",
+          "name": "L"
+        },
+        {
+          "id": "4",
+          "name": "XL"
+        }
+      ],
+      "images": [
+        {
+          "id": "1",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ad97fa44-8bbc-4091-a0b5-1d2f6a28b4be/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        },
+        {
+          "id": "2",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6998cb70-f8c5-493e-9fa4-38cae460154c/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        },
+        {
+          "id": "3",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8971c302-9373-4930-86d3-f005a4468071/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        },
+        {
+          "id": "4",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/eb527542-8f93-4a64-9173-4bfc35dfd201/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        },
+        {
+          "id": "5",
+          "link": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/208cdbfe-6d9f-47fb-8bbd-322047738849/sportswear-essential-womens-oversized-short-sleeve-t-shirt-3mqX5R.png"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "1",
+      "name": "Lacoste",
+      "image": "https://logowik.com/content/uploads/images/522_lacoste.jpg"
+    },
+    {
+      "id": "2",
+      "name": "The North Face",
+      "image": "https://w7.pngwing.com/pngs/220/29/png-transparent-the-north-face-hd-logo.png"
+    },
+    {
+      "id": "3",
+      "name": "Nike",
+      "image": "https://static.vecteezy.com/system/resources/previews/010/994/232/original/nike-logo-black-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg"
+    }
+  ],
+  "cart": []
+}

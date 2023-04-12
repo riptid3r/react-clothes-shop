@@ -1,6 +1,6 @@
 import cn from 'clsx'
 import { FC } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 interface INavigationItem {
   link: string
@@ -19,7 +19,7 @@ export const NavigationItem: FC<INavigationItem> = ({
 }) => {
   return (
     <li>
-      <NavLink to={link} onClick={onClick}>
+      <Link to={link} onClick={onClick}>
         <span
           className={cn(
             `relative mr-0 md:mr-5 before:block before:absolute before:w-full 
@@ -36,7 +36,7 @@ export const NavigationItem: FC<INavigationItem> = ({
         >
           <span>{name}</span>
         </span>
-      </NavLink>
+      </Link>
     </li>
   )
 }

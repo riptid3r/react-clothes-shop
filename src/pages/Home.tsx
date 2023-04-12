@@ -1,15 +1,37 @@
 import { Icon } from '@iconify/react'
-import { FC } from 'react'
-import { NavLink } from 'react-router-dom'
+import { FC, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 import { ProductSwiper } from '@/components/productSwiper/ProductSwiper'
 import { Button } from '@/components/ui/button/Button'
 
 import Person from '@/assets/images/person.png'
 
+import { useAppDispatch, useAppSelector } from '@/redux/hooks'
+import {
+  selectProductsData,
+  setNewArrivalList
+} from '@/redux/slices/products.slice'
+
+import { ProductsService } from '@/services/products/products.service'
+
 import { RouterPath } from '@/router/paths'
 
 export const Home: FC = () => {
+  const { newArrival } = useAppSelector(selectProductsData)
+
+  const dispatch = useAppDispatch()
+
+  useEffect(() => {
+    ProductsService.getNewArrival()
+      .then(({ data }) => {
+        dispatch(setNewArrivalList({ list: data }))
+      })
+      .catch((e) => {
+        console.error(e)
+      })
+  }, [dispatch])
+
   return (
     <>
       <section className='min-h-screen w-screen flex items-center justify-center px-5 md:px-9'>
@@ -31,12 +53,12 @@ export const Home: FC = () => {
               We love labels, choosing only the best pieces from their
               collections to give you all the things you want to wear.
             </p>
-            <NavLink to={`${RouterPath.Category}/trending`}>
+            <Link to={`${RouterPath.Category}/trending`}>
               <Button className='flex items-center self-start mt-5 md:mt-10 px-7 py-3'>
                 <span className='mr-2'>Explore now</span>
                 <Icon icon='ph:arrow-right-light' height={20} />
               </Button>
-            </NavLink>
+            </Link>
           </div>
 
           <div className='h-auto w-auto max-w-md lg:max-w-3xl lg:mt-0 mt-10'>
@@ -80,7 +102,7 @@ export const Home: FC = () => {
       <section className='w-screen px-5 py-8 md:py-14'>
         <div className='flex flex-col max-w-screen-2xl m-auto'>
           <h1 className='uppercase text-3xl font-semibold'>New arrival</h1>
-          <ProductSwiper />
+          <ProductSwiper items={newArrival} />
         </div>
       </section>
     </>
