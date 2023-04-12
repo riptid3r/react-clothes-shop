@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react'
+import cn from 'clsx'
 import { FC, useEffect, useState } from 'react'
 import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -6,21 +7,24 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { ProductSwiper } from '@/components/productSwiper/ProductSwiper'
 import { Button } from '@/components/ui/button/Button'
 
+import { useAppDispatch, useAppSelector } from '@/redux/hooks'
+import {
+  addInCart,
+  selectCartData,
+  setLoading
+} from '@/redux/slices/cart.slice'
+
 import { IProductItem } from '@/types/interfaces/products.interface'
 
+import { CartService } from '@/services/cart/cart.service'
 import { ProductsService } from '@/services/products/products.service'
 
-export const Product: FC<IProductItem> = ({
-  name,
-  brand,
-  images,
-  description,
-  price,
-  combination,
-  sizes
-}) => {
+export const Product: FC<IProductItem> = (item) => {
+  const dispatch = useAppDispatch()
+  const { isLoading } = useAppSelector(selectCartData)
+
   const [recommendations, setRecommendations] = useState<IProductItem[]>([])
-  const [size, setSize] = useState(sizes[0].id)
+  const [size, setSize] = useState(item.sizes[0].id)
   const [counter, setCounter] = useState(1)
 
   const onCount = (type: 'increase' | 'decrease') => {
@@ -28,6 +32,26 @@ export const Product: FC<IProductItem> = ({
     if (counter === 10 && type === 'increase') return
 
     setCounter((v) => (type === 'increase' ? v + 1 : v - 1))
+  }
+
+  const onAddToCart = async () => {
+    if (isLoading) return
+
+    dispatch(setLoading({ isLoading: true }))
+
+    try {
+      const response = await CartService.addInCart({
+        item,
+        size,
+        quantity: counter
+      })
+
+      dispatch(addInCart({ item: response.data }))
+    } catch (error) {
+      console.error(error)
+    } finally {
+      dispatch(setLoading({ isLoading: false }))
+    }
   }
 
   useEffect(() => {
@@ -50,7 +74,7 @@ export const Product: FC<IProductItem> = ({
               pagination={true}
               modules={[Navigation, Pagination]}
             >
-              {images.map((item) => (
+              {item.images.map((item) => (
                 <SwiperSlide key={item.id}>
                   <img
                     className='w-full h-full object-cover object-center'
@@ -64,16 +88,18 @@ export const Product: FC<IProductItem> = ({
 
           <div className='flex flex-col max-w-lg'>
             <span className='text-2xl font-semibold mb-2'>
-              {brand} {name}
+              {item.brand} {item.name}
             </span>
             <span className='self-start px-5 py-2 bg-primary rounded-3xl text-white text-2xl font-semibold'>
-              ${price}
+              ${item.price}
             </span>
-            <p className='text-xl mt-5'>{description}</p>
-            <p className='text-md mt-5 text-gray'>Combination: {combination}</p>
+            <p className='text-xl mt-5'>{item.description}</p>
+            <p className='text-md mt-5 text-gray'>
+              Combination: {item.combination}
+            </p>
             <span className='text-md font-semibold mt-5'>Choose a size:</span>
             <div className='self-start grid grid-cols-4 gap-1 mt-2'>
-              {sizes.map((item) => (
+              {item.sizes.map((item) => (
                 <Button
                   variant={size === item.id ? 'primary' : 'secondary'}
                   className='p-2 w-10 h-10'
@@ -107,7 +133,15 @@ export const Product: FC<IProductItem> = ({
                 </div>
               </div>
 
-              <Button className='flex flex-grow justify-center items-center px-7 py-3'>
+              <Button
+                className={cn(
+                  'flex flex-grow justify-center items-center px-7 py-3',
+                  {
+                    disabled: isLoading
+                  }
+                )}
+                onClick={onAddToCart}
+              >
                 <div className='flex items-center'>
                   <span className='uppercase text-md mr-2 text-sm sm:text-md'>
                     Add to cart

@@ -10,12 +10,14 @@ import { ButtonIcon } from '../ui/buttonIcon/ButtonIcon'
 import { RouterPath } from '@/router/paths'
 
 interface IHeader {
+  cartSize: number
   showBurger: boolean
   onClickCart: () => void
   onClickMenu: () => void
 }
 
 export const Header: FC<IHeader> = ({
+  cartSize,
   showBurger,
   onClickMenu,
   onClickCart
@@ -54,11 +56,14 @@ export const Header: FC<IHeader> = ({
           />
         </NavLink>
 
-        <ButtonIcon
-          icon='teenyicons:basket-outline'
-          height={24}
-          onClick={onClickCart}
-        />
+        <div className='relative cursor-pointer' onClick={onClickCart}>
+          {cartSize > 0 && (
+            <div className='absolute w-4 h-4 bg-primary rounded-full -left-2.5 -top-2 flex items-center justify-center text-white text-xs'>
+              {cartSize}
+            </div>
+          )}
+          <ButtonIcon icon='teenyicons:basket-outline' height={24} />
+        </div>
       </div>
     </header>
   )

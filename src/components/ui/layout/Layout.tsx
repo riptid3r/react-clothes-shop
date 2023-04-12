@@ -13,9 +13,12 @@ import {
   setBurgerVisibility,
   setCartVisibility
 } from '@/redux/slices/app.slice'
+import { selectCartData } from '@/redux/slices/cart.slice'
 
 export const Layout: FC = () => {
   const { showBurger, showCart } = useAppSelector(selectAppData)
+  const { cart } = useAppSelector(selectCartData)
+
   const dispatch = useAppDispatch()
 
   const onClickMenu = () => {
@@ -43,6 +46,7 @@ export const Layout: FC = () => {
       <Cart />
       <Burger showed={showBurger} />
       <Header
+        cartSize={cart.length}
         showBurger={showBurger}
         onClickMenu={onClickMenu}
         onClickCart={onClickCart}

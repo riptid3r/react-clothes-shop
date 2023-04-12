@@ -12,7 +12,7 @@ const initialState: ICollectionsState = {
 }
 
 export const collectionsSlice = createSlice({
-  name: 'products',
+  name: 'collections',
   initialState,
   reducers: {
     setCollections: (
