@@ -34,7 +34,7 @@ export const Home: FC = () => {
 
   return (
     <>
-      <section className='min-h-screen w-screen flex items-center justify-center px-5 md:px-9'>
+      <section className='min-h-[calc(100vh-64px)] lg:min-h-[calc(100vh-80px)] w-screen flex items-center justify-center p-5 md:p-9'>
         <div className='flex flex-col lg:flex-row items-center justify-center h-full w-full max-w-screen-2xl lg:h-auto'>
           <div className='flex flex-col max-w-prose mr-0 lg:mr-10'>
             <h1 className='text-5xl font-light md:leading-tight sm:text-6xl md:text-7xl'>
@@ -61,15 +61,11 @@ export const Home: FC = () => {
             </Link>
           </div>
 
-          <div className='h-auto w-auto max-w-md lg:max-w-3xl lg:mt-0 mt-10'>
-            <img
-              className='h-full w-full'
-              style={{ objectFit: 'contain' }}
-              src={Person}
-              alt=''
-              draggable='false'
-            />
-          </div>
+          <div
+            className={`h-64 sm:h-96 md:h-[25rem] lg:h-[35rem] 2xl:h-[45rem] w-64 sm:w-96 md:w-[25rem] 
+              lg:w-[35rem] 2xl:w-[45rem] grow-0 lg:mt-0 mt-10 bg-contain bg-no-repeat bg-center`}
+            style={{ backgroundImage: `url(${Person})` }}
+          />
         </div>
       </section>
 
