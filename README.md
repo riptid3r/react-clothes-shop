@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# React Clothes Shop 👔
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3><a href="https://react-clothes-shop.vercel.app/">Сайт проекта</a></h3>
 
-## Available Scripts
+![preview](https://user-images.githubusercontent.com/68905021/232017384-0052c7a9-bc1c-4a29-864c-205eece6cced.gif)
 
-In the project directory, you can run:
+Проект является онлайн-магазином одежды, где пользователь может просмотривать список товаров, используя удобную навигацию, а также просматривать и добавлять товары в корзину. Реализована адаптивность под все устройства.
 
-### `yarn start`
+## Технологии проекта
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=flat-square)
+![Redux Badge](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=fff&style=flat-square)
+![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=flat-square)
+![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat-square)
+![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square)
+![Swiper Badge](https://img.shields.io/badge/Swiper-6332F6?logo=swiper&logoColor=fff&style=flat-square)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat-square)
+![Prettier Badge](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=fff&style=flat-square)
+![Axios Badge](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=fff&style=flat-square)
+![Yarn Badge](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff&style=flat-square)
+![Vercel Badge](https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=fff&style=flat-square)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Запуск проекта ⏯
 
-### `yarn test`
+Для запуска проекта в режиме разработки вам необходимо набрать команды в терминале:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```javascript
+yarn
+yarn start
+yarn start-db
+```
 
-### `yarn build`
+Для сборки проекта необходимо набрать следующие команды:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```javascript
+yarn
+yarn build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+⚠️ <strong>Также для корректной работы используются переменные окружения, для разработки это env.development, а для сборки env.production</strong> ⚠️
